@@ -190,3 +190,39 @@ header {
     padding-bottom: 10px;
     border-bottom: 2px solid #e67e22;
 }
+
+/*------------------------------------------------------------*/
+/* MEALS */
+/*------------------------------------------------------------*/
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    widows: 100%;
+    height: auto;
+    transform: scale(1.15);
+}
+
+.meal-photo img:hover {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
